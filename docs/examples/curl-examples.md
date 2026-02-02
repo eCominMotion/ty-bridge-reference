@@ -37,3 +37,7 @@ curl -X POST "https://example-ingest.yourdomain.com/ingest" \
     "timestamp": "2026-02-02T12:34:56Z"
   }'
 ```
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

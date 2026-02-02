@@ -21,3 +21,7 @@ Pixels are an important signal, but they are not a guarantee of attribution or d
 - Verification needs to include destination-side test tools and receipts
 
 - You must consider consent state at the moment of the event
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

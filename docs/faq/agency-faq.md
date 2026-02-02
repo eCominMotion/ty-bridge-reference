@@ -19,3 +19,7 @@ Identifiers are withheld. Non-PII order properties may be sent if the destinatio
 ## Do you provide guarantees about attribution?
 
 No. Attribution depends on destination policies and consent state.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

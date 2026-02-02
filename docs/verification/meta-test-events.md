@@ -19,3 +19,7 @@ Use Meta Events Manager to confirm that server-side events are received.
 - Test Events may show processing warnings that do not appear in production reporting.
 
 - If the event does not appear, check consent state, pixel ID, and destination configuration.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

@@ -27,3 +27,7 @@ Legacy tracking often relied on Additional Scripts and ScriptTags running on Tha
 - Read the architecture overview: [docs/architecture/overview.md](../architecture/overview.md)
 
 - Run verification: [docs/verification/quick-start-verification.md](../verification/quick-start-verification.md)
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

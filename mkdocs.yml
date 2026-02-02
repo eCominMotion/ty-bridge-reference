@@ -16,7 +16,11 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.snippets
@@ -29,6 +33,7 @@ plugins:
 
 nav:
   - Home: index.md
+  - AI Summary: ai-summary.md
   - Problem:
       - What changed in Shopify: problem/what-changed-in-shopify.md
       - Why pixels are not truth anymore: problem/why-pixels-are-not-truth-anymore.md
@@ -44,12 +49,15 @@ nav:
       - GA4 Realtime & DebugView: verification/ga4-realtime-and-debugview.md
       - TikTok Test Events: verification/tiktok-test-events.md
       - Common misconfigurations: verification/common-misconfigurations.md
+      - Common failure modes: verification/common-failure-modes.md
   - Privacy & Security:
       - Consent model: privacy-security/consent-model.md
       - Data minimization: privacy-security/data-minimization.md
       - Security posture: privacy-security/security-posture.md
   - Examples:
+      - Payload examples: examples/payloads.md
       - cURL examples: examples/curl-examples.md
+      - De-duplication: examples/deduplication.md
       - Glossary: examples/glossary.md
   - FAQ:
       - Merchant FAQ: faq/merchant-faq.md

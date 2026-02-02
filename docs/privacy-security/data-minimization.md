@@ -27,3 +27,7 @@ TY-Bridge collects and forwards only what is required to deliver the event corre
 - Retention periods are explicit and limited to operational needs
 
 - Deletion is supported for audit and privacy requirements
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

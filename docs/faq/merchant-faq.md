@@ -19,3 +19,7 @@ No guarantees are made. Platform behavior varies based on configuration, consent
 ## Is my customer data protected?
 
 TY-Bridge is designed around data minimization and consent gating. See [docs/privacy-security/security-posture.md](../privacy-security/security-posture.md).
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

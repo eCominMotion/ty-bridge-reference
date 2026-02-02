@@ -50,3 +50,7 @@ sequenceDiagram
 - event_id should be stable across client and server paths to support destination-side de-duplication.
 
 - If consent is denied, identifiers are withheld and only non-PII event data is sent where allowed.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

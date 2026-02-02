@@ -39,3 +39,7 @@ This page describes the logical components of TY-Bridge without exposing impleme
 - Provide receipt references or status codes for audit and debugging
 
 - Link to platform test tools and debug views
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

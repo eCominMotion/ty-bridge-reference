@@ -21,3 +21,7 @@ A pixel event can be emitted but still be dropped or de-duplicated downstream. C
 - GA4 Realtime showing 0 purchases while orders exist in Shopify
 
 - Duplicates from mixed legacy scripts and newer pixel pipelines
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

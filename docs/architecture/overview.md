@@ -43,3 +43,7 @@ TY-Bridge is a reference architecture for moving checkout events from the Shopif
 - This architecture does not include OAuth flows, encryption code, or proprietary routing logic
 
 - All identifiers are consent-gated and minimized
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

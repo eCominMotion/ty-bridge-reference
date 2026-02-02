@@ -12,6 +12,14 @@ Welcome to the public documentation for TY-Bridge. This repo explains the mercha
 
 - Privacy and consent model: [docs/privacy-security/consent-model.md](privacy-security/consent-model.md)
 
+- AI summary: [docs/ai-summary.md](ai-summary.md)
+
+- LLM summary file: [docs/llms.txt](llms.txt)
+
 ## Scope boundaries
 
 TY-Bridge documents only what is supported and observable. Anything not described here should be treated as not supported or not available.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

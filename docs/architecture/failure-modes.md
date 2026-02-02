@@ -43,3 +43,7 @@ TY-Bridge favors visible, explainable, and recoverable failures. The scenarios b
 - event_id enables destination-side de-duplication
 
 - If client and server both send, one is dropped downstream
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

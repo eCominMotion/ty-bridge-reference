@@ -27,3 +27,7 @@ GA4 Realtime and DebugView are the fastest way to confirm that events are arrivi
 - Ad blockers or browser privacy restrictions
 
 - Looking at a filtered view or the wrong property
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

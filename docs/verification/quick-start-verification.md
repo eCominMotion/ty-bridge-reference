@@ -49,3 +49,7 @@ This checklist helps merchants and agencies confirm that events are captured and
 - Looking at reports instead of test tools or debug views
 
 - Duplicate client and server events without a stable event_id
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

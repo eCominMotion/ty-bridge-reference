@@ -31,3 +31,7 @@ Process of removing duplicate events using a stable event_id.
 ## Consent gating
 
 Policy that restricts identifiers and data fields based on user consent state.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

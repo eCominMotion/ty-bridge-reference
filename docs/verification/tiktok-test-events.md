@@ -17,3 +17,7 @@ TikTok Events Manager provides a test events view to confirm server-side deliver
 - If events are missing, verify consent state and destination IDs.
 
 - Test Events are the primary signal during setup; reporting dashboards can lag.
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.

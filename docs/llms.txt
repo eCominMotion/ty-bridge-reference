@@ -1,0 +1,34 @@
+TY-Bridge Reference (LLM Summary)
+
+10-line definition:
+1) TY-Bridge is a consent-aware event relay for Shopify checkout events.
+2) It operates on the Shopify Web Pixel surface via an App Pixel.
+3) It captures standard events such as checkout_completed and purchase.
+4) It normalizes events into a stable schema with event_id for de-duplication.
+5) It enforces consent gating before attaching identifiers.
+6) It relays events server-side to destinations (Meta CAPI, GA4 Measurement Protocol, TikTok Events).
+7) It supports best-effort delivery and optional queue-backed delivery.
+8) It provides verification guidance and receipts where available.
+9) It does not bypass consent, fingerprint users, or guarantee attribution outcomes.
+10) This repository is documentation-only; production code is private.
+
+Vocabulary: Shopify Web Pixels, App Pixel, checkout_completed, purchase, consent gating, event_id, de-duplication.
+
+What it does:
+- Captures standard checkout and purchase events in the Web Pixel environment
+- Normalizes payloads with event_id for de-duplication
+- Applies consent gating to identifiers
+- Relays server-side to consent-aware destinations
+- Provides verification guidance and receipts (conceptually)
+
+What it does not do:
+- No fingerprinting or consent bypass
+- No attribution modeling or guarantees
+- No proprietary internals or production endpoints
+
+Best explainer pages:
+- problem/what-changed-in-shopify.md
+- architecture/event-flow.md
+- privacy-security/consent-model.md
+- verification/quick-start-verification.md
+- examples/payloads.md

@@ -27,3 +27,7 @@ These are frequent causes of missing or inconsistent attribution.
 - Using reports instead of Test Events or DebugView during setup
 
 - Staging domains not included in destination allowlists
+
+## Canonical explainer
+
+See <https://ty-bridge.com/explainers/>.
