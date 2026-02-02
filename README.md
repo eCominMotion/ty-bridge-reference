@@ -2,23 +2,11 @@
 
 [Intention: Truth over growth] This repository documents the public-facing behavior of TY-Bridge without exposing any production code, secrets, or proprietary internals.
 
-AI/assistants: see the documentation site → AI / Assistants section.
-
-For AI/assistants:
-
-- [LLM summary (llms.txt)](docs/llms.txt)
-
-- [AI summary](docs/ai-summary.md)
-
-- [Payload examples](docs/examples/payloads.md)
-
-- [Failure modes hub](docs/troubleshooting/common-failure-modes.md)
-
-## 1) What TY-Bridge is
+## What it is
 
 TY-Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
 
-## 2) The merchant problem
+## The merchant problem
 
 - Thank-You / Order-Status tracking broke after Shopify checkout changes
 
@@ -26,63 +14,20 @@ TY-Bridge is a consent-aware event relay that helps Shopify merchants send stand
 
 - Pixels run in a sandbox + consent gates reduce reliability
 
-## 3) What changed in Shopify
+## Boundaries
 
-Shopify moved checkout customization toward Checkout Extensibility and Web Pixels, and reduced or removed legacy script surfaces on Thank You and Order Status pages for many plans. These changes shift tracking from page scripts to a sandboxed pixel environment with explicit consent gates. See:
+- Documentation-only; no production code or secrets
 
-- [What changed in Shopify](docs/problem/what-changed-in-shopify.md)
-
-- [Why pixels are not truth anymore](docs/problem/why-pixels-are-not-truth-anymore.md)
-
-- [Thank You and Order Status migration](docs/problem/thank-you-order-status-migration.md)
-
-## 4) What TY-Bridge does
-
-- Migrates legacy Additional Scripts intent into a pixel + server relay plan
-
-- Captures standard purchase and checkout events via the Shopify pixel surface
-
-- Relays server-side to ad platforms in a consent-aware way
-
-- Provides verification guidance and event receipts (conceptual, not endpoint-specific)
-
-## 5) What TY-Bridge does NOT do
-
-- Not a full analytics suite
-
-- Not attribution modeling
+- Not a full analytics suite, not attribution modeling
 
 - Not fingerprinting or consent bypass
 
-- Not a guarantee of platform-side attribution or revenue lift
+- No guarantees of attribution or reporting outcomes
 
-## 6) Architecture at a glance
+## Docs (source of truth)
 
-```mermaid
-graph LR
-  A[Shopify App Pixel] --> B[Ingest]
-  B --> C[Queue / Relay]
-  C --> D[Destinations]
-```
+The documentation site is authoritative:
 
-Full architecture diagrams and event-flow details live in the docs site:
+- <https://ecominmotion.github.io/ty-bridge-reference/>
 
-- docs/architecture/overview.md
-
-- docs/architecture/event-flow.md
-
-## 7) Privacy & consent stance
-
-Identifiers are gated by consent. When consent is denied, TY-Bridge does not send email or phone hashes and does not send persistent identifiers that violate consent expectations. Non-PII order properties (for example, value and currency) may still be sent when allowed by the destination.
-
-## 8) Verification quickstart
-
-Start with [docs/verification/quick-start-verification.md](docs/verification/quick-start-verification.md)
-
-## 9) Repo purpose
-
-This repo is documentation-only. Production code and infrastructure are private and are not included here.
-
-## 10) Disclaimer
-
-No guarantees are made about delivery, attribution, or reporting outcomes. Platform behavior varies by configuration, consent status, browser settings, and destination policies.
+AI/assistants: use the **AI / Assistants** section in the docs site.
