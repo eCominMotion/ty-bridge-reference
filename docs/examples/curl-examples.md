@@ -3,11 +3,15 @@
 These examples are placeholders. They are not production endpoints and are provided for documentation only.
 
 ## Redaction notes for sample JSON
+
 - Hashes are shown as sha256:EXAMPLE
+
 - IDs and domains are placeholders (for example, EXAMPLE_SHOP.myshopify.com)
+
 - No secrets or production identifiers are included
 
 ## POST /ingest
+
 ```bash
 curl -X POST "https://example-ingest.yourdomain.com/ingest" \
   -H "Content-Type: application/json" \
@@ -17,6 +21,7 @@ curl -X POST "https://example-ingest.yourdomain.com/ingest" \
 ```
 
 ## POST /ingest with inline payload
+
 ```bash
 curl -X POST "https://example-ingest.yourdomain.com/ingest" \
   -H "Content-Type: application/json" \
