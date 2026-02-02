@@ -65,13 +65,11 @@ graph LR
   C --> D[Destinations]
 ```
 
-- Shopify App Pixel collects standard events within the Web Pixel sandbox
+Full architecture diagrams and event-flow details live in the docs site:
 
-- Ingest runs on Cloudflare Workers (or equivalent edge runtime), normalizes payloads, and applies consent gating
+- docs/architecture/overview.md
 
-- Queue/Relay enables best-effort or durable delivery paths
-
-- Destinations include Meta CAPI, GA4 Measurement Protocol, TikTok Events, and Google Ads
+- docs/architecture/event-flow.md
 
 ## 7) Privacy & consent stance
 
