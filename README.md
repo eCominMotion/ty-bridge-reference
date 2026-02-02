@@ -90,10 +90,6 @@ For CI parity:
 mkdocs build --strict
 ```
 
-## 11) Contributing
-
-Docs-only contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for rules and review expectations.
-
-## 12) Disclaimer
+## 11) Disclaimer
 
 No guarantees are made about delivery, attribution, or reporting outcomes. Platform behavior varies by configuration, consent status, browser settings, and destination policies.
