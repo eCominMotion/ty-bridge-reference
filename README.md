@@ -73,23 +73,6 @@ Start with [docs/verification/quick-start-verification.md](docs/verification/qui
 
 This repo is documentation-only. Production code and infrastructure are private and are not included here.
 
-## 10) Docs site (MkDocs)
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Open <http://127.0.0.1:8000> in your browser.
-
-For CI parity:
-
-```bash
-mkdocs build --strict
-```
-
-## 11) Disclaimer
+## 10) Disclaimer
 
 No guarantees are made about delivery, attribution, or reporting outcomes. Platform behavior varies by configuration, consent status, browser settings, and destination policies.
