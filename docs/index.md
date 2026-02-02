@@ -4,19 +4,19 @@ Welcome to the public documentation for TY-Bridge. This repo explains the mercha
 
 ## Start here
 
-- Problem overview: [docs/problem/what-changed-in-shopify.md](problem/what-changed-in-shopify.md)
+- [Problem overview](problem/what-changed-in-shopify.md)
 
-- Architecture overview: [docs/architecture/overview.md](architecture/overview.md)
+- [Architecture overview](architecture/overview.md)
 
-- Verification quickstart: [docs/verification/quick-start-verification.md](verification/quick-start-verification.md)
+- [Verification quickstart](verification/quick-start-verification.md)
 
-- Privacy and consent model: [docs/privacy-security/consent-model.md](privacy-security/consent-model.md)
+- [Privacy and consent model](privacy-security/consent-model.md)
 
-- AI summary: [docs/ai-summary.md](ai-summary.md)
+- [AI summary](ai-summary.md)
 
-- LLM summary file: [docs/llms.txt](llms.txt)
+- [LLM summary file](llms.txt)
 
-- Troubleshooting hub: [docs/troubleshooting/common-failure-modes.md](troubleshooting/common-failure-modes.md)
+- [Troubleshooting hub](troubleshooting/common-failure-modes.md)
 
 ## Scope boundaries
 
