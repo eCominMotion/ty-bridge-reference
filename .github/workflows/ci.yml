@@ -21,7 +21,9 @@ jobs:
         run: npx markdownlint-cli@0.39.0 "**/*.md"
 
       - name: Link check (internal only)
-        run: npx lychee@0.15.1 --no-progress --verbose --offline --exclude-mail README.md docs
+        uses: lycheeverse/lychee-action@v1
+        with:
+          args: --no-progress --verbose --offline --exclude-mail README.md docs
 
       - name: Secret pattern scan
         run: |
