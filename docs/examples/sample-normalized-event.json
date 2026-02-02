@@ -1,0 +1,12 @@
+{
+  "event_name": "purchase",
+  "event_id": "evt_2026_02_02_0001",
+  "order_id": "ORDER_10001",
+  "currency": "USD",
+  "value": 123.45,
+  "consent": {
+    "marketing": "denied",
+    "analytics": "granted"
+  },
+  "timestamp": "2026-02-02T12:34:56Z"
+}

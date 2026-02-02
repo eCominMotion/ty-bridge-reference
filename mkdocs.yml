@@ -1,0 +1,56 @@
+site_name: "TY-Bridge Reference"
+site_description: "Neutral technical reference for TY-Bridge (documentation-only)."
+repo_url: "https://github.com/<ORG>/ty-bridge-reference"
+repo_name: "ty-bridge-reference"
+docs_dir: "docs"
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - content.code.copy
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - mermaid2
+
+nav:
+  - Home: index.md
+  - Problem:
+      - What changed in Shopify: problem/what-changed-in-shopify.md
+      - Why pixels are not truth anymore: problem/why-pixels-are-not-truth-anymore.md
+      - TY/OS migration: problem/thank-you-order-status-migration.md
+  - Architecture:
+      - Overview: architecture/overview.md
+      - Event flow: architecture/event-flow.md
+      - Components: architecture/components.md
+      - Failure modes: architecture/failure-modes.md
+  - Verification:
+      - Quick start: verification/quick-start-verification.md
+      - Meta Test Events: verification/meta-test-events.md
+      - GA4 Realtime & DebugView: verification/ga4-realtime-and-debugview.md
+      - TikTok Test Events: verification/tiktok-test-events.md
+      - Common misconfigurations: verification/common-misconfigurations.md
+  - Privacy & Security:
+      - Consent model: privacy-security/consent-model.md
+      - Data minimization: privacy-security/data-minimization.md
+      - Security posture: privacy-security/security-posture.md
+  - Examples:
+      - cURL examples: examples/curl-examples.md
+      - Glossary: examples/glossary.md
+  - FAQ:
+      - Merchant FAQ: faq/merchant-faq.md
+      - Agency FAQ: faq/agency-faq.md

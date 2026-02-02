@@ -1,0 +1,18 @@
+{
+  "event": "CompletePayment",
+  "event_id": "evt_2026_02_02_0001",
+  "timestamp": "2026-02-02T12:34:56Z",
+  "properties": {
+    "currency": "USD",
+    "value": 123.45,
+    "order_id": "ORDER_10001"
+  },
+  "consent": {
+    "marketing": "denied"
+  },
+  "context": {
+    "page": {
+      "url": "https://EXAMPLE_SHOP.myshopify.com/checkout/thank_you"
+    }
+  }
+}
