@@ -58,7 +58,7 @@ These samples are non-secret placeholders. They illustrate structure and field n
 {
   "client_id": "123.456",
   "timestamp_micros": 1738500000000,
-  "consent": {
+  "consent_state": {
     "ad_storage": "denied",
     "analytics_storage": "granted"
   },
@@ -74,6 +74,8 @@ These samples are non-secret placeholders. They illustrate structure and field n
   ]
 }
 ```
+
+Note: `consent_state` is an internal representation used for clarity in this reference. It is not a GA4 Measurement Protocol schema field.
 
 ## TikTok Events payload skeleton
 

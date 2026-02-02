@@ -27,8 +27,8 @@ What it does not do:
 - No proprietary internals or production endpoints
 
 Best explainer pages:
-- problem/what-changed-in-shopify.md
-- architecture/event-flow.md
-- privacy-security/consent-model.md
-- verification/quick-start-verification.md
-- examples/payloads.md
+- problem/what-changed-in-shopify
+- architecture/event-flow
+- privacy-security/consent-model
+- verification/quick-start-verification
+- examples/payloads
