@@ -33,7 +33,10 @@ plugins:
 
 nav:
   - Home: index.md
-  - AI Summary: ai-summary.md
+  - AI / Assistants:
+      - Overview: ai/index.md
+      - AI summary: ai-summary.md
+      - llms.txt: ai/llms.md
   - Problem:
       - What changed in Shopify: problem/what-changed-in-shopify.md
       - Why pixels are not truth anymore: problem/why-pixels-are-not-truth-anymore.md
@@ -49,7 +52,6 @@ nav:
       - GA4 Realtime & DebugView: verification/ga4-realtime-and-debugview.md
       - TikTok Test Events: verification/tiktok-test-events.md
       - Common misconfigurations: verification/common-misconfigurations.md
-      - Common failure modes: verification/common-failure-modes.md
   - Troubleshooting:
       - Common failure modes: troubleshooting/common-failure-modes.md
   - Privacy & Security:

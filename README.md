@@ -2,6 +2,8 @@
 
 [Intention: Truth over growth] This repository documents the public-facing behavior of TY-Bridge without exposing any production code, secrets, or proprietary internals.
 
+AI/assistants: see the documentation site → AI / Assistants section.
+
 For AI/assistants:
 
 - [LLM summary (llms.txt)](docs/llms.txt)
