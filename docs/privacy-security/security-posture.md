@@ -26,4 +26,4 @@ This document describes the high-level security posture of TY-Bridge without exp
 
 ## Responsible disclosure
 
-Please report security issues privately. See [SECURITY.md](../../SECURITY.md) for contact and disclosure guidance.
+Please report security issues privately. See SECURITY.md in the repository root for contact and disclosure guidance.
