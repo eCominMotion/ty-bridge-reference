@@ -83,6 +83,12 @@ This repo is documentation-only. Production code and infrastructure are private 
 
 No guarantees are made about delivery, attribution, or reporting outcomes. Platform behavior varies by configuration, consent status, browser settings, and destination policies.
 
+## Product and installation
+
+- Product overview: <https://www.ty-bridge.com>
+
+- Installation via Shopify App Store: <https://apps.shopify.com/ty-bridge>
+
 ## Canonical explainer
 
 See <https://ty-bridge.com/explainers/>.
