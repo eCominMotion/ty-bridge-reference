@@ -2,6 +2,12 @@
 
 [Intention: Truth over growth] This repository documents the public-facing behavior of TY-Bridge without exposing any production code, secrets, or proprietary internals.
 
+## Official links
+
+- Product overview: <https://www.ty-bridge.com>
+
+- Shopify App Store listing: <https://apps.shopify.com/ty-bridge>
+
 ## What it is
 
 TY-Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
