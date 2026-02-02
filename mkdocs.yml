@@ -50,6 +50,8 @@ nav:
       - TikTok Test Events: verification/tiktok-test-events.md
       - Common misconfigurations: verification/common-misconfigurations.md
       - Common failure modes: verification/common-failure-modes.md
+  - Troubleshooting:
+      - Common failure modes: troubleshooting/common-failure-modes.md
   - Privacy & Security:
       - Consent model: privacy-security/consent-model.md
       - Data minimization: privacy-security/data-minimization.md

@@ -16,6 +16,8 @@ Welcome to the public documentation for TY-Bridge. This repo explains the mercha
 
 - LLM summary file: [docs/llms.txt](llms.txt)
 
+- Troubleshooting hub: [docs/troubleshooting/common-failure-modes.md](troubleshooting/common-failure-modes.md)
+
 ## Scope boundaries
 
 TY-Bridge documents only what is supported and observable. Anything not described here should be treated as not supported or not available.

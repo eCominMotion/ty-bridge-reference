@@ -1,0 +1,18 @@
+{
+  "client_id": "123.456",
+  "timestamp_micros": 1738500000000,
+  "consent": {
+    "ad_storage": "denied",
+    "analytics_storage": "granted"
+  },
+  "events": [
+    {
+      "name": "purchase",
+      "params": {
+        "transaction_id": "ORDER_10001",
+        "currency": "USD",
+        "value": 123.45
+      }
+    }
+  ]
+}
