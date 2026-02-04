@@ -6,7 +6,7 @@ Start with [docs/verification/quick-start-verification.md](../verification/quick
 
 ## Can I use my own server-side stack?
 
-TY-Bridge describes a reference architecture. The concepts can be implemented in multiple runtimes.
+TY Bridge describes a reference architecture. The concepts can be implemented in multiple runtimes.
 
 ## How does de-duplication work?
 

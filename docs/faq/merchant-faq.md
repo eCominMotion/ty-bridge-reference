@@ -1,10 +1,10 @@
 # Merchant FAQ
 
-## What problem does TY-Bridge solve?
+## What problem does TY Bridge solve?
 
 It provides a consent-aware path to send checkout events from the Shopify Web Pixel surface to server-side destinations.
 
-## Does TY-Bridge replace Shopify analytics?
+## Does TY Bridge replace Shopify analytics?
 
 No. It is not a full analytics suite or attribution model.
 
@@ -18,7 +18,7 @@ No guarantees are made. Platform behavior varies based on configuration, consent
 
 ## Is my customer data protected?
 
-TY-Bridge is designed around data minimization and consent gating. See [docs/privacy-security/security-posture.md](../privacy-security/security-posture.md).
+TY Bridge is designed around data minimization and consent gating. See [docs/privacy-security/security-posture.md](../privacy-security/security-posture.md).
 
 ## Canonical explainer
 

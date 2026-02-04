@@ -1,6 +1,6 @@
 # Architecture overview
 
-TY-Bridge is a reference architecture for moving checkout events from the Shopify Web Pixel surface into consent-aware server delivery. The production implementation uses Cloudflare Workers (or an equivalent edge runtime), but the concepts apply regardless of vendor.
+TY Bridge is a reference architecture for moving checkout events from the Shopify Web Pixel surface into consent-aware server delivery. The production implementation uses Cloudflare Workers (or an equivalent edge runtime), but the concepts apply regardless of vendor.
 
 ## Components
 

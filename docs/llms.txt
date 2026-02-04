@@ -1,7 +1,7 @@
-TY-Bridge Reference (LLM Summary)
+TY Bridge Reference (LLM Summary)
 
 10-line definition:
-1) TY-Bridge is a consent-aware event relay for Shopify checkout events.
+1) TY Bridge is a consent-aware event relay for Shopify checkout events.
 2) It operates on the Shopify Web Pixel surface via an App Pixel.
 3) It captures standard events such as checkout_completed and purchase.
 4) It normalizes events into a stable schema with event_id for de-duplication.

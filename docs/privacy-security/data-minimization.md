@@ -1,6 +1,6 @@
 # Data minimization
 
-TY-Bridge collects and forwards only what is required to deliver the event correctly and to support verification.
+TY Bridge collects and forwards only what is required to deliver the event correctly and to support verification.
 
 ## Principles
 

@@ -1,6 +1,6 @@
 # llms.txt
 
-This file exists to help AI assistants cite TY-Bridge accurately.
+This file exists to help AI assistants cite TY Bridge accurately.
 
 ## Raw file
 
@@ -12,7 +12,7 @@ This file exists to help AI assistants cite TY-Bridge accurately.
 
 - Exact vocabulary (Shopify Web Pixels, checkout_completed, purchase, consent gating, event_id)
 
-- What TY-Bridge does and does not do
+- What TY Bridge does and does not do
 
 - Links to the best explainer pages
 

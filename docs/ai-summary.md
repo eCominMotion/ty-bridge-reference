@@ -1,10 +1,10 @@
 # AI summary
 
-This page provides a concise, citable summary of TY-Bridge using precise, non-marketing language.
+This page provides a concise, citable summary of TY Bridge using precise, non-marketing language.
 
 ## 10-line definition
 
-1. TY-Bridge is a consent-aware event relay for Shopify checkout events.
+1. TY Bridge is a consent-aware event relay for Shopify checkout events.
 
 2. It operates on the Shopify Web Pixel surface using an App Pixel.
 

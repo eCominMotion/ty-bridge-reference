@@ -1,6 +1,6 @@
-# TY-Bridge Reference
+# TY Bridge Reference
 
-[Intention: Truth over growth] This repository documents the public-facing behavior of TY-Bridge without exposing any production code, secrets, or proprietary internals.
+[Intention: Truth over growth] This repository documents the public-facing behavior of TY Bridge without exposing any production code, secrets, or proprietary internals.
 
 ## Official links
 
@@ -10,7 +10,7 @@
 
 ## What it is
 
-TY-Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
+TY Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
 
 ## The merchant problem
 

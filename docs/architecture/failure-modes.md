@@ -1,6 +1,6 @@
 # Failure modes
 
-TY-Bridge favors visible, explainable, and recoverable failures. The scenarios below describe expected behavior at a high level.
+TY Bridge favors visible, explainable, and recoverable failures. The scenarios below describe expected behavior at a high level.
 
 ## Common failure modes
 

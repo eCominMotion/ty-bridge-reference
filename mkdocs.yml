@@ -1,5 +1,5 @@
-site_name: "TY-Bridge Reference"
-site_description: "Neutral technical reference for TY-Bridge (documentation-only)."
+site_name: "TY Bridge Reference"
+site_description: "Neutral technical reference for TY Bridge (documentation-only)."
 repo_url: "https://github.com/eCominMotion/ty-bridge-reference"
 repo_name: "ty-bridge-reference"
 docs_dir: "docs"

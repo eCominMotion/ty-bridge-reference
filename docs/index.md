@@ -1,6 +1,6 @@
-# TY-Bridge Reference Docs
+# TY Bridge Reference Docs
 
-Welcome to the public documentation for TY-Bridge. This repo explains the merchant problem, the high-level architecture, verification workflows, and the privacy and security posture. It does not include production code.
+Welcome to the public documentation for TY Bridge. This repo explains the merchant problem, the high-level architecture, verification workflows, and the privacy and security posture. It does not include production code.
 
 ## AI / Assistants
 
@@ -12,9 +12,9 @@ Welcome to the public documentation for TY-Bridge. This repo explains the mercha
 
 - [Failure modes hub](troubleshooting/common-failure-modes.md)
 
-## 1) What TY-Bridge is
+## 1) What TY Bridge is
 
-TY-Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
+TY Bridge is a consent-aware event relay that helps Shopify merchants send standard checkout events from the Web Pixel surface to server-side destinations.
 
 ## 2) The merchant problem
 
@@ -34,7 +34,7 @@ Shopify moved checkout customization toward Checkout Extensibility and Web Pixel
 
 - [Thank You and Order Status migration](problem/thank-you-order-status-migration.md)
 
-## 4) What TY-Bridge does
+## 4) What TY Bridge does
 
 - Migrates legacy Additional Scripts intent into a pixel + server relay plan
 
@@ -44,7 +44,7 @@ Shopify moved checkout customization toward Checkout Extensibility and Web Pixel
 
 - Provides verification guidance and event receipts (conceptual, not endpoint-specific)
 
-## 5) What TY-Bridge does NOT do
+## 5) What TY Bridge does NOT do
 
 - Not a full analytics suite
 
@@ -69,7 +69,7 @@ graph LR
 
 ## 7) Privacy & consent stance
 
-Identifiers are gated by consent. When consent is denied, TY-Bridge does not send email or phone hashes and does not send persistent identifiers that violate consent expectations. Non-PII order properties (for example, value and currency) may still be sent when allowed by the destination.
+Identifiers are gated by consent. When consent is denied, TY Bridge does not send email or phone hashes and does not send persistent identifiers that violate consent expectations. Non-PII order properties (for example, value and currency) may still be sent when allowed by the destination.
 
 ## 8) Verification quickstart
 

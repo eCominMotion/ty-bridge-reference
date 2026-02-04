@@ -1,6 +1,6 @@
 # Consent model
 
-TY-Bridge treats consent as a first-class input to event delivery. This document defines how consent is interpreted at a high level.
+TY Bridge treats consent as a first-class input to event delivery. This document defines how consent is interpreted at a high level.
 
 ## Consent types
 
@@ -33,7 +33,7 @@ flowchart LR
 
 ## Mapping concept
 
-TY-Bridge can map consent into destination-specific fields in a way similar to Consent Mode v2 style mapping. This is a conceptual alignment only and is not a certification or legal claim.
+TY Bridge can map consent into destination-specific fields in a way similar to Consent Mode v2 style mapping. This is a conceptual alignment only and is not a certification or legal claim.
 
 ## Operational notes
 

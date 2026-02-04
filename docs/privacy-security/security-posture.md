@@ -1,6 +1,6 @@
 # Security posture
 
-This document describes the high-level security posture of TY-Bridge without exposing implementation details.
+This document describes the high-level security posture of TY Bridge without exposing implementation details.
 
 ## Data minimization
 

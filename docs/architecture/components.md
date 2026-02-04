@@ -1,6 +1,6 @@
 # Components
 
-This page describes the logical components of TY-Bridge without exposing implementation details.
+This page describes the logical components of TY Bridge without exposing implementation details.
 
 ## App Pixel
 
